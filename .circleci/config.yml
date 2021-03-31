@@ -75,7 +75,7 @@ jobs:
             test/functional/test_runner.py
   x86_64_focal:
     docker:
-      - image: circleci/buildpack-deps:20.04
+      - image: circleci/buildpack-deps:focal
         user: root
     environment:
       HOST: x86_64-linux-gnu
