@@ -272,6 +272,9 @@ workflows:
       - x86_64_xenial:
           requires:
             - lint_all
+      - x86_64_focal:
+          requires:
+            - lint_all
       - arm32_bionic:
           requires:
             - lint_all
